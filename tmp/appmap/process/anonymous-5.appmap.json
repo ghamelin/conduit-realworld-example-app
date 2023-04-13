@@ -1,0 +1,5068 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 1,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"Article.js\""
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 2,
+      "parent_id": 1,
+      "elapsed": 0.00015799999999990176,
+      "return_value": {
+        "name": "return",
+        "class": "boolean",
+        "value": "true"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 3,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"Comment.js\""
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 4,
+      "parent_id": 3,
+      "elapsed": 0.00003100000000040381,
+      "return_value": {
+        "name": "return",
+        "class": "boolean",
+        "value": "true"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 5,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"Tag.js\""
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 6,
+      "parent_id": 5,
+      "elapsed": 0.000023999999999887223,
+      "return_value": {
+        "name": "return",
+        "class": "boolean",
+        "value": "true"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 7,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"User.js\""
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 8,
+      "parent_id": 7,
+      "elapsed": 0.000021999999999934517,
+      "return_value": {
+        "name": "return",
+        "class": "boolean",
+        "value": "true"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 9,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"index.js\""
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 10,
+      "parent_id": 9,
+      "elapsed": 0.000038999999999759896,
+      "return_value": {
+        "name": "return",
+        "class": "boolean",
+        "value": "false"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 11,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 24,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"Article.js\""
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 12,
+      "defined_class": "Article",
+      "method_id": "[anonymous]",
+      "path": "backend/models/Article.js",
+      "lineno": 3,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "sequelize",
+          "class": "Sequelize",
+          "object_id": 1,
+          "value": "[object Object]"
+        },
+        {
+          "name": "DataTypes",
+          "class": "Object",
+          "object_id": 2,
+          "value": "[object Object]",
+          "size": 10,
+          "properties": [
+            {
+              "name": "ABSTRACT",
+              "class": "function"
+            },
+            {
+              "name": "STRING",
+              "class": "function"
+            },
+            {
+              "name": "CHAR",
+              "class": "function"
+            },
+            {
+              "name": "TEXT",
+              "class": "function"
+            },
+            {
+              "name": "NUMBER",
+              "class": "function"
+            },
+            {
+              "name": "TINYINT",
+              "class": "function"
+            },
+            {
+              "name": "SMALLINT",
+              "class": "function"
+            },
+            {
+              "name": "MEDIUMINT",
+              "class": "function"
+            },
+            {
+              "name": "INTEGER",
+              "class": "function"
+            },
+            {
+              "name": "BIGINT",
+              "class": "function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 13,
+      "parent_id": 12,
+      "elapsed": 0.028292000000000372,
+      "return_value": {
+        "name": "return",
+        "class": "Function",
+        "object_id": 3,
+        "value": "function Article (...) { ... }"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 14,
+      "parent_id": 11,
+      "elapsed": 0.0439380000000001,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 15,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 24,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"Comment.js\""
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 16,
+      "defined_class": "Comment",
+      "method_id": "[anonymous]",
+      "path": "backend/models/Comment.js",
+      "lineno": 3,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "sequelize",
+          "class": "Sequelize",
+          "object_id": 1,
+          "value": "[object Object]"
+        },
+        {
+          "name": "DataTypes",
+          "class": "Object",
+          "object_id": 2,
+          "value": "[object Object]",
+          "size": 10,
+          "properties": [
+            {
+              "name": "ABSTRACT",
+              "class": "function"
+            },
+            {
+              "name": "STRING",
+              "class": "function"
+            },
+            {
+              "name": "CHAR",
+              "class": "function"
+            },
+            {
+              "name": "TEXT",
+              "class": "function"
+            },
+            {
+              "name": "NUMBER",
+              "class": "function"
+            },
+            {
+              "name": "TINYINT",
+              "class": "function"
+            },
+            {
+              "name": "SMALLINT",
+              "class": "function"
+            },
+            {
+              "name": "MEDIUMINT",
+              "class": "function"
+            },
+            {
+              "name": "INTEGER",
+              "class": "function"
+            },
+            {
+              "name": "BIGINT",
+              "class": "function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 17,
+      "parent_id": 16,
+      "elapsed": 0.002385999999999967,
+      "return_value": {
+        "name": "return",
+        "class": "Function",
+        "object_id": 4,
+        "value": "function Comment (...) { ... }"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 18,
+      "parent_id": 15,
+      "elapsed": 0.0160949999999998,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 19,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 24,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"Tag.js\""
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 20,
+      "defined_class": "Tag",
+      "method_id": "[anonymous]",
+      "path": "backend/models/Tag.js",
+      "lineno": 3,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "sequelize",
+          "class": "Sequelize",
+          "object_id": 1,
+          "value": "[object Object]"
+        },
+        {
+          "name": "DataTypes",
+          "class": "Object",
+          "object_id": 2,
+          "value": "[object Object]",
+          "size": 10,
+          "properties": [
+            {
+              "name": "ABSTRACT",
+              "class": "function"
+            },
+            {
+              "name": "STRING",
+              "class": "function"
+            },
+            {
+              "name": "CHAR",
+              "class": "function"
+            },
+            {
+              "name": "TEXT",
+              "class": "function"
+            },
+            {
+              "name": "NUMBER",
+              "class": "function"
+            },
+            {
+              "name": "TINYINT",
+              "class": "function"
+            },
+            {
+              "name": "SMALLINT",
+              "class": "function"
+            },
+            {
+              "name": "MEDIUMINT",
+              "class": "function"
+            },
+            {
+              "name": "INTEGER",
+              "class": "function"
+            },
+            {
+              "name": "BIGINT",
+              "class": "function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 21,
+      "parent_id": 20,
+      "elapsed": 0.0020070000000000617,
+      "return_value": {
+        "name": "return",
+        "class": "Function",
+        "object_id": 5,
+        "value": "function Tag (...) { ... }"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 22,
+      "parent_id": 19,
+      "elapsed": 0.014836999999999989,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 23,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 24,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "file",
+          "class": "string",
+          "value": "\"User.js\""
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 24,
+      "defined_class": "User",
+      "method_id": "[anonymous]",
+      "path": "backend/models/User.js",
+      "lineno": 3,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "sequelize",
+          "class": "Sequelize",
+          "object_id": 1,
+          "value": "[object Object]"
+        },
+        {
+          "name": "DataTypes",
+          "class": "Object",
+          "object_id": 2,
+          "value": "[object Object]",
+          "size": 10,
+          "properties": [
+            {
+              "name": "ABSTRACT",
+              "class": "function"
+            },
+            {
+              "name": "STRING",
+              "class": "function"
+            },
+            {
+              "name": "CHAR",
+              "class": "function"
+            },
+            {
+              "name": "TEXT",
+              "class": "function"
+            },
+            {
+              "name": "NUMBER",
+              "class": "function"
+            },
+            {
+              "name": "TINYINT",
+              "class": "function"
+            },
+            {
+              "name": "SMALLINT",
+              "class": "function"
+            },
+            {
+              "name": "MEDIUMINT",
+              "class": "function"
+            },
+            {
+              "name": "INTEGER",
+              "class": "function"
+            },
+            {
+              "name": "BIGINT",
+              "class": "function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 25,
+      "parent_id": 24,
+      "elapsed": 0.0015590000000001965,
+      "return_value": {
+        "name": "return",
+        "class": "Function",
+        "object_id": 6,
+        "value": "function User (...) { ... }"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 26,
+      "parent_id": 23,
+      "elapsed": 0.016516000000000076,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 27,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 32,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "modelName",
+          "class": "string",
+          "value": "\"Article\""
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 28,
+      "defined_class": "Article",
+      "method_id": "associate",
+      "path": "backend/models/Article.js",
+      "lineno": 10,
+      "static": true,
+      "receiver": {
+        "name": "this",
+        "class": "Function",
+        "object_id": 3,
+        "value": "function Article (...) { ... }"
+      },
+      "parameters": [
+        {
+          "name": "{ User, Tag, Comment }",
+          "class": "Object",
+          "object_id": 7,
+          "value": "[object Object]",
+          "size": 4,
+          "properties": [
+            {
+              "name": "Article",
+              "class": "function"
+            },
+            {
+              "name": "Comment",
+              "class": "function"
+            },
+            {
+              "name": "Tag",
+              "class": "function"
+            },
+            {
+              "name": "User",
+              "class": "function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 29,
+      "parent_id": 28,
+      "elapsed": 0.01736299999999983,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 30,
+      "parent_id": 27,
+      "elapsed": 0.017851000000000113,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 31,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 32,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "modelName",
+          "class": "string",
+          "value": "\"Comment\""
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 32,
+      "defined_class": "Comment",
+      "method_id": "associate",
+      "path": "backend/models/Comment.js",
+      "lineno": 10,
+      "static": true,
+      "receiver": {
+        "name": "this",
+        "class": "Function",
+        "object_id": 4,
+        "value": "function Comment (...) { ... }"
+      },
+      "parameters": [
+        {
+          "name": "{ User, Article }",
+          "class": "Object",
+          "object_id": 7,
+          "value": "[object Object]",
+          "size": 4,
+          "properties": [
+            {
+              "name": "Article",
+              "class": "function"
+            },
+            {
+              "name": "Comment",
+              "class": "function"
+            },
+            {
+              "name": "Tag",
+              "class": "function"
+            },
+            {
+              "name": "User",
+              "class": "function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 33,
+      "parent_id": 32,
+      "elapsed": 0.0015349999999998544,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 34,
+      "parent_id": 31,
+      "elapsed": 0.0019150000000004183,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 35,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 32,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "modelName",
+          "class": "string",
+          "value": "\"Tag\""
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 36,
+      "defined_class": "Tag",
+      "method_id": "associate",
+      "path": "backend/models/Tag.js",
+      "lineno": 10,
+      "static": true,
+      "receiver": {
+        "name": "this",
+        "class": "Function",
+        "object_id": 5,
+        "value": "function Tag (...) { ... }"
+      },
+      "parameters": [
+        {
+          "name": "{ Article }",
+          "class": "Object",
+          "object_id": 7,
+          "value": "[object Object]",
+          "size": 4,
+          "properties": [
+            {
+              "name": "Article",
+              "class": "function"
+            },
+            {
+              "name": "Comment",
+              "class": "function"
+            },
+            {
+              "name": "Tag",
+              "class": "function"
+            },
+            {
+              "name": "User",
+              "class": "function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 37,
+      "parent_id": 36,
+      "elapsed": 0.0016169999999997345,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 38,
+      "parent_id": 35,
+      "elapsed": 0.002014999999999873,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 39,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/models/index.js",
+      "lineno": 32,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "modelName",
+          "class": "string",
+          "value": "\"User\""
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 40,
+      "defined_class": "User",
+      "method_id": "associate",
+      "path": "backend/models/User.js",
+      "lineno": 10,
+      "static": true,
+      "receiver": {
+        "name": "this",
+        "class": "Function",
+        "object_id": 6,
+        "value": "function User (...) { ... }"
+      },
+      "parameters": [
+        {
+          "name": "{ Article, Comment, User }",
+          "class": "Object",
+          "object_id": 7,
+          "value": "[object Object]",
+          "size": 4,
+          "properties": [
+            {
+              "name": "Article",
+              "class": "function"
+            },
+            {
+              "name": "Comment",
+              "class": "function"
+            },
+            {
+              "name": "Tag",
+              "class": "function"
+            },
+            {
+              "name": "User",
+              "class": "function"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 41,
+      "parent_id": 40,
+      "elapsed": 0.008381000000000314,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 42,
+      "parent_id": 39,
+      "elapsed": 0.008625999999999748,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 43,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/index.js",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 44,
+      "parent_id": 43,
+      "elapsed": 0.9407619999999998,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 45,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/articles/my-dope-article1/comments",
+        "normalized_path_info": "/api/articles/:slug/comments",
+        "headers": {
+          "if-none-match": "W/\"f-DSK3s7cPAqrq+537gdA1gy8XGx8\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      },
+      "message": [
+        {
+          "name": ":slug",
+          "class": "string",
+          "value": "my-dope-article1"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 46,
+      "defined_class": "authentication",
+      "method_id": "verifyToken",
+      "path": "backend/middleware/authentication.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 9,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 10,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 11,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 47,
+      "defined_class": "comments",
+      "method_id": "allComments",
+      "path": "backend/controllers/comments.js",
+      "lineno": 11,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 9,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 10,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 11,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 48,
+      "parent_id": 47,
+      "elapsed": 0.0644979999999996,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 49,
+      "parent_id": 46,
+      "elapsed": 0.005829999999999927,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 50,
+      "parent_id": 45,
+      "elapsed": 0.07432500000000028,
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"f-DSK3s7cPAqrq+537gdA1gy8XGx8\""
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 51,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/user",
+        "normalized_path_info": "/api/user/",
+        "headers": {
+          "if-none-match": "W/\"e8-GisxNsQ//jW+wST8CyhfALNldTs\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "authorization": "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQG1haWwuY29tIiwiaWF0IjoxNjgxMzk0NTcyfQ.N8fMVTTyYvDXZx1Js8BU5veMzhxhh9_GRglkVQv5HQI",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 52,
+      "defined_class": "authentication",
+      "method_id": "verifyToken",
+      "path": "backend/middleware/authentication.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 13,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 14,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 15,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 53,
+      "defined_class": "jwt",
+      "method_id": "[anonymous]",
+      "path": "backend/helper/jwt.js",
+      "lineno": 11,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "token",
+          "class": "string",
+          "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQG1haWwuY29tIiwiaWF0IjoxNjgxMzk0NTcyfQ ..."
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 54,
+      "parent_id": 53,
+      "elapsed": 0.007715000000000145,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 16,
+        "value": "[object Object]",
+        "size": 2,
+        "properties": [
+          {
+            "name": "email",
+            "class": "string"
+          },
+          {
+            "name": "iat",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 55,
+      "defined_class": "user",
+      "method_id": "currentUser",
+      "path": "backend/controllers/user.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 13,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 14,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 15,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 56,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 22,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 57,
+      "parent_id": 56,
+      "elapsed": 0.00011099999999987631,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 23,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "string"
+          },
+          {
+            "name": "image",
+            "class": "string"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "token",
+            "class": "string"
+          },
+          {
+            "name": "email",
+            "class": "string"
+          }
+        ]
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 58,
+      "parent_id": 55,
+      "elapsed": 0.0016910000000002583,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 59,
+      "parent_id": 52,
+      "elapsed": 0.05592699999999968,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 60,
+      "parent_id": 51,
+      "elapsed": 0.05824400000000014,
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"e8-GisxNsQ//jW+wST8CyhfALNldTs\""
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 61,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/articles/my-dope-article1/comments",
+        "normalized_path_info": "/api/articles/:slug/comments",
+        "headers": {
+          "if-none-match": "W/\"f-DSK3s7cPAqrq+537gdA1gy8XGx8\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      },
+      "message": [
+        {
+          "name": ":slug",
+          "class": "string",
+          "value": "my-dope-article1"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 62,
+      "defined_class": "authentication",
+      "method_id": "verifyToken",
+      "path": "backend/middleware/authentication.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 24,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 25,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 26,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 63,
+      "defined_class": "comments",
+      "method_id": "allComments",
+      "path": "backend/controllers/comments.js",
+      "lineno": 11,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 24,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 25,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 26,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 64,
+      "parent_id": 63,
+      "elapsed": 0.021690000000000053,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 65,
+      "parent_id": 62,
+      "elapsed": 0.001268000000000029,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 66,
+      "parent_id": 61,
+      "elapsed": 0.029480000000000017,
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"f-DSK3s7cPAqrq+537gdA1gy8XGx8\""
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 67,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/user",
+        "normalized_path_info": "/api/user/",
+        "headers": {
+          "if-none-match": "W/\"e8-GisxNsQ//jW+wST8CyhfALNldTs\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "authorization": "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQG1haWwuY29tIiwiaWF0IjoxNjgxMzk0NTcyfQ.N8fMVTTyYvDXZx1Js8BU5veMzhxhh9_GRglkVQv5HQI",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 68,
+      "defined_class": "authentication",
+      "method_id": "verifyToken",
+      "path": "backend/middleware/authentication.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 28,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 29,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 30,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 69,
+      "defined_class": "jwt",
+      "method_id": "[anonymous]",
+      "path": "backend/helper/jwt.js",
+      "lineno": 11,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "token",
+          "class": "string",
+          "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQG1haWwuY29tIiwiaWF0IjoxNjgxMzk0NTcyfQ ..."
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 70,
+      "parent_id": 69,
+      "elapsed": 0.002623999999999796,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 31,
+        "value": "[object Object]",
+        "size": 2,
+        "properties": [
+          {
+            "name": "email",
+            "class": "string"
+          },
+          {
+            "name": "iat",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 71,
+      "defined_class": "user",
+      "method_id": "currentUser",
+      "path": "backend/controllers/user.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 28,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 29,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 30,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 72,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 36,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 73,
+      "parent_id": 72,
+      "elapsed": 0.00006700000000000728,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 37,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "string"
+          },
+          {
+            "name": "image",
+            "class": "string"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "token",
+            "class": "string"
+          },
+          {
+            "name": "email",
+            "class": "string"
+          }
+        ]
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 74,
+      "parent_id": 71,
+      "elapsed": 0.0009919999999997344,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 75,
+      "parent_id": 68,
+      "elapsed": 0.01135900000000038,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 76,
+      "parent_id": 67,
+      "elapsed": 0.013148999999999886,
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"e8-GisxNsQ//jW+wST8CyhfALNldTs\""
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 77,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/articles/my-dope-article1",
+        "normalized_path_info": "/api/articles/:slug",
+        "headers": {
+          "if-none-match": "W/\"171-lHmSq5YpgByD4UzgSSCZqc2FY5g\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "accept": "*/*",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      },
+      "message": [
+        {
+          "name": ":slug",
+          "class": "string",
+          "value": "my-dope-article1"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 78,
+      "defined_class": "authentication",
+      "method_id": "verifyToken",
+      "path": "backend/middleware/authentication.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 39,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 40,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 41,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 79,
+      "defined_class": "articles",
+      "method_id": "singleArticle",
+      "path": "backend/controllers/articles.js",
+      "lineno": 153,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 39,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 40,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 41,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 80,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 44,
+          "value": "[object SequelizeInstance:Tag]",
+          "size": 1
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 43,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 81,
+      "defined_class": "appendTagList",
+      "method_id": "[anonymous]",
+      "path": "backend/helper/helpers.js",
+      "lineno": 6,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "tag",
+          "class": "Tag",
+          "object_id": 45,
+          "value": "[object SequelizeInstance:Tag]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 82,
+      "parent_id": 81,
+      "elapsed": 0.00010199999995529651,
+      "return_value": {
+        "name": "return",
+        "class": "string",
+        "value": "\"cool\""
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 83,
+      "parent_id": 80,
+      "elapsed": 0.0003309999999473803,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 84,
+      "defined_class": "helpers",
+      "method_id": "appendFollowers",
+      "path": "backend/helper/helpers.js",
+      "lineno": 20,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "toAppend",
+          "class": "Article",
+          "object_id": 43,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 85,
+      "parent_id": 84,
+      "elapsed": 0.018428000000014436,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 86,
+      "defined_class": "helpers",
+      "method_id": "appendFavorites",
+      "path": "backend/helper/helpers.js",
+      "lineno": 12,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 43,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 87,
+      "parent_id": 86,
+      "elapsed": 0.009630000000004657,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 88,
+      "defined_class": "Article",
+      "method_id": "toJSON",
+      "path": "backend/models/Article.js",
+      "lineno": 36,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "Article",
+        "object_id": 43,
+        "value": "[object SequelizeInstance:Article]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 89,
+      "parent_id": 88,
+      "elapsed": 0.00007299999997485429,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 54,
+        "value": "[object Object]",
+        "size": 10,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "slug",
+            "class": "string"
+          },
+          {
+            "name": "title",
+            "class": "string"
+          },
+          {
+            "name": "description",
+            "class": "string"
+          },
+          {
+            "name": "body",
+            "class": "string"
+          },
+          {
+            "name": "createdAt",
+            "class": "object"
+          },
+          {
+            "name": "updatedAt",
+            "class": "object"
+          },
+          {
+            "name": "userId",
+            "class": "undefined"
+          },
+          {
+            "name": "tagList",
+            "class": "object"
+          },
+          {
+            "name": "author",
+            "class": "object"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 90,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 55,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 91,
+      "parent_id": 90,
+      "elapsed": 0.0000530000000144355,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 56,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "string"
+          },
+          {
+            "name": "image",
+            "class": "string"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "following",
+            "class": "boolean"
+          },
+          {
+            "name": "followersCount",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 92,
+      "parent_id": 79,
+      "elapsed": 0.06679599999997299,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 93,
+      "parent_id": 78,
+      "elapsed": 0.0014710000000195578,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 94,
+      "parent_id": 77,
+      "elapsed": 0.06871700000000419,
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "369",
+          "etag": "W/\"171-GncbYrpmQxDDzmYjQMbENGcN8dc\""
+        },
+        "return_value": {
+          "name": "return",
+          "class": "Object",
+          "object_id": 57,
+          "value": "[object Object]",
+          "size": 1,
+          "properties": [
+            {
+              "name": "article",
+              "class": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 95,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/articles",
+        "normalized_path_info": "/api/articles/",
+        "headers": {
+          "if-none-match": "W/\"7af-oeHNGCw9mxAiQwdcUt+YQjPFV84\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "accept": "*/*",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      },
+      "message": [
+        {
+          "name": "limit",
+          "class": "string",
+          "value": "3"
+        },
+        {
+          "name": "offset",
+          "class": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 96,
+      "defined_class": "authentication",
+      "method_id": "verifyToken",
+      "path": "backend/middleware/authentication.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 58,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 59,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 60,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 97,
+      "defined_class": "articles",
+      "method_id": "allArticles",
+      "path": "backend/controllers/articles.js",
+      "lineno": 22,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 58,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 59,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 60,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 98,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 68,
+          "value": "[object SequelizeInstance:Tag]",
+          "size": 1
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 69,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 99,
+      "defined_class": "appendTagList",
+      "method_id": "[anonymous]",
+      "path": "backend/helper/helpers.js",
+      "lineno": 6,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "tag",
+          "class": "Tag",
+          "object_id": 70,
+          "value": "[object SequelizeInstance:Tag]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 100,
+      "parent_id": 99,
+      "elapsed": 0.000059000000008381904,
+      "return_value": {
+        "name": "return",
+        "class": "string",
+        "value": "\"cool\""
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 101,
+      "parent_id": 98,
+      "elapsed": 0.0001979999999748543,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 102,
+      "defined_class": "helpers",
+      "method_id": "appendFollowers",
+      "path": "backend/helper/helpers.js",
+      "lineno": 20,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "toAppend",
+          "class": "Article",
+          "object_id": 69,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 103,
+      "parent_id": 102,
+      "elapsed": 0.04604399999999441,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 104,
+      "defined_class": "helpers",
+      "method_id": "appendFavorites",
+      "path": "backend/helper/helpers.js",
+      "lineno": 12,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 69,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 105,
+      "parent_id": 104,
+      "elapsed": 0.03522999999998137,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 106,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 90,
+          "value": "",
+          "size": 0
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 91,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 107,
+      "parent_id": 106,
+      "elapsed": 0.00004600000003119931,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 108,
+      "defined_class": "helpers",
+      "method_id": "appendFollowers",
+      "path": "backend/helper/helpers.js",
+      "lineno": 20,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "toAppend",
+          "class": "Article",
+          "object_id": 91,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 109,
+      "parent_id": 108,
+      "elapsed": 0.01900199999997858,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 110,
+      "defined_class": "helpers",
+      "method_id": "appendFavorites",
+      "path": "backend/helper/helpers.js",
+      "lineno": 12,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 91,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 111,
+      "parent_id": 110,
+      "elapsed": 0.019698999999964144,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 112,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 101,
+          "value": "",
+          "size": 0
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 102,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 113,
+      "parent_id": 112,
+      "elapsed": 0.00015299999999115243,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 114,
+      "defined_class": "helpers",
+      "method_id": "appendFollowers",
+      "path": "backend/helper/helpers.js",
+      "lineno": 20,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "toAppend",
+          "class": "Article",
+          "object_id": 102,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 115,
+      "parent_id": 114,
+      "elapsed": 0.02332900000002701,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 116,
+      "defined_class": "helpers",
+      "method_id": "appendFavorites",
+      "path": "backend/helper/helpers.js",
+      "lineno": 12,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 102,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 117,
+      "parent_id": 116,
+      "elapsed": 0.008055999999982305,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 118,
+      "defined_class": "Article",
+      "method_id": "toJSON",
+      "path": "backend/models/Article.js",
+      "lineno": 36,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "Article",
+        "object_id": 69,
+        "value": "[object SequelizeInstance:Article]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 119,
+      "parent_id": 118,
+      "elapsed": 0.000106000000028871,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 111,
+        "value": "[object Object]",
+        "size": 10,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "slug",
+            "class": "string"
+          },
+          {
+            "name": "title",
+            "class": "string"
+          },
+          {
+            "name": "description",
+            "class": "string"
+          },
+          {
+            "name": "body",
+            "class": "string"
+          },
+          {
+            "name": "createdAt",
+            "class": "object"
+          },
+          {
+            "name": "updatedAt",
+            "class": "object"
+          },
+          {
+            "name": "userId",
+            "class": "undefined"
+          },
+          {
+            "name": "tagList",
+            "class": "object"
+          },
+          {
+            "name": "author",
+            "class": "object"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 120,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 112,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 121,
+      "parent_id": 120,
+      "elapsed": 0.00008400000003166497,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 113,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "string"
+          },
+          {
+            "name": "image",
+            "class": "string"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "following",
+            "class": "boolean"
+          },
+          {
+            "name": "followersCount",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 122,
+      "defined_class": "Article",
+      "method_id": "toJSON",
+      "path": "backend/models/Article.js",
+      "lineno": 36,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "Article",
+        "object_id": 91,
+        "value": "[object SequelizeInstance:Article]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 123,
+      "parent_id": 122,
+      "elapsed": 0.00009200000000419096,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 114,
+        "value": "[object Object]",
+        "size": 10,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "slug",
+            "class": "string"
+          },
+          {
+            "name": "title",
+            "class": "string"
+          },
+          {
+            "name": "description",
+            "class": "string"
+          },
+          {
+            "name": "body",
+            "class": "string"
+          },
+          {
+            "name": "createdAt",
+            "class": "object"
+          },
+          {
+            "name": "updatedAt",
+            "class": "object"
+          },
+          {
+            "name": "userId",
+            "class": "undefined"
+          },
+          {
+            "name": "tagList",
+            "class": "object"
+          },
+          {
+            "name": "author",
+            "class": "object"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 124,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 115,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 125,
+      "parent_id": 124,
+      "elapsed": 0.0001820000000298023,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 116,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "object"
+          },
+          {
+            "name": "image",
+            "class": "object"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "following",
+            "class": "boolean"
+          },
+          {
+            "name": "followersCount",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 126,
+      "defined_class": "Article",
+      "method_id": "toJSON",
+      "path": "backend/models/Article.js",
+      "lineno": 36,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "Article",
+        "object_id": 102,
+        "value": "[object SequelizeInstance:Article]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 127,
+      "parent_id": 126,
+      "elapsed": 0.00017799999995622785,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 117,
+        "value": "[object Object]",
+        "size": 10,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "slug",
+            "class": "string"
+          },
+          {
+            "name": "title",
+            "class": "string"
+          },
+          {
+            "name": "description",
+            "class": "string"
+          },
+          {
+            "name": "body",
+            "class": "string"
+          },
+          {
+            "name": "createdAt",
+            "class": "object"
+          },
+          {
+            "name": "updatedAt",
+            "class": "object"
+          },
+          {
+            "name": "userId",
+            "class": "undefined"
+          },
+          {
+            "name": "tagList",
+            "class": "object"
+          },
+          {
+            "name": "author",
+            "class": "object"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 128,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 118,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 129,
+      "parent_id": 128,
+      "elapsed": 0.00008900000003632158,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 119,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "object"
+          },
+          {
+            "name": "image",
+            "class": "object"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "following",
+            "class": "boolean"
+          },
+          {
+            "name": "followersCount",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 130,
+      "parent_id": 97,
+      "elapsed": 0.24804899999999908,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 131,
+      "parent_id": 96,
+      "elapsed": 0.0032289999999920837,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 132,
+      "parent_id": 95,
+      "elapsed": 0.25606400000001306,
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "1971",
+          "etag": "W/\"7b3-tE4SYrCz1HWhjs9V8qUuuJkUdyQ\""
+        },
+        "return_value": {
+          "name": "return",
+          "class": "Object",
+          "object_id": 120,
+          "value": "[object Object]",
+          "size": 2,
+          "properties": [
+            {
+              "name": "articles",
+              "class": "object"
+            },
+            {
+              "name": "articlesCount",
+              "class": "number"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 133,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/tags",
+        "normalized_path_info": "/api/tags/",
+        "headers": {
+          "if-none-match": "W/\"11-/KnYZG9E7DWdeqaDW+xskaO/nmw\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 134,
+      "defined_class": "tags",
+      "method_id": "[anonymous]",
+      "path": "backend/routes/tags.js",
+      "lineno": 7,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 64,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 65,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 66,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 135,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 73,
+          "value": "[object SequelizeInstance:Tag]",
+          "size": 1
+        },
+        {
+          "name": "article",
+          "class": "undefined",
+          "value": "undefined"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 136,
+      "defined_class": "appendTagList",
+      "method_id": "[anonymous]",
+      "path": "backend/helper/helpers.js",
+      "lineno": 6,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "tag",
+          "class": "Tag",
+          "object_id": 74,
+          "value": "[object SequelizeInstance:Tag]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 137,
+      "parent_id": 136,
+      "elapsed": 0.00005799999996088445,
+      "return_value": {
+        "name": "return",
+        "class": "string",
+        "value": "\"cool\""
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 138,
+      "parent_id": 135,
+      "elapsed": 0.0003169999999809079,
+      "return_value": {
+        "name": "return",
+        "class": "Array",
+        "object_id": 75,
+        "value": "cool",
+        "size": 1
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 139,
+      "parent_id": 134,
+      "elapsed": 0.03743499999999767,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 140,
+      "parent_id": 133,
+      "elapsed": 0.03956299999996554,
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"11-/KnYZG9E7DWdeqaDW+xskaO/nmw\""
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 141,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/tags",
+        "normalized_path_info": "/api/tags/",
+        "headers": {
+          "if-none-match": "W/\"11-/KnYZG9E7DWdeqaDW+xskaO/nmw\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 142,
+      "defined_class": "tags",
+      "method_id": "[anonymous]",
+      "path": "backend/routes/tags.js",
+      "lineno": 7,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 81,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 82,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 83,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 143,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 87,
+          "value": "[object SequelizeInstance:Tag]",
+          "size": 1
+        },
+        {
+          "name": "article",
+          "class": "undefined",
+          "value": "undefined"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 144,
+      "defined_class": "appendTagList",
+      "method_id": "[anonymous]",
+      "path": "backend/helper/helpers.js",
+      "lineno": 6,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "tag",
+          "class": "Tag",
+          "object_id": 88,
+          "value": "[object SequelizeInstance:Tag]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 145,
+      "parent_id": 144,
+      "elapsed": 0.000029999999969732017,
+      "return_value": {
+        "name": "return",
+        "class": "string",
+        "value": "\"cool\""
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 146,
+      "parent_id": 143,
+      "elapsed": 0.00010499999998137355,
+      "return_value": {
+        "name": "return",
+        "class": "Array",
+        "object_id": 89,
+        "value": "cool",
+        "size": 1
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 147,
+      "parent_id": 142,
+      "elapsed": 0.03155999999999767,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 148,
+      "parent_id": 141,
+      "elapsed": 0.036602000000013506,
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"11-/KnYZG9E7DWdeqaDW+xskaO/nmw\""
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 149,
+      "http_server_request": {
+        "protocol": "HTTP/1.1",
+        "request_method": "GET",
+        "path_info": "/api/articles",
+        "normalized_path_info": "/api/articles/",
+        "headers": {
+          "if-none-match": "W/\"7b3-tE4SYrCz1HWhjs9V8qUuuJkUdyQ\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "accept": "*/*",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      },
+      "message": [
+        {
+          "name": "limit",
+          "class": "string",
+          "value": "3"
+        },
+        {
+          "name": "offset",
+          "class": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 150,
+      "defined_class": "authentication",
+      "method_id": "verifyToken",
+      "path": "backend/middleware/authentication.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 121,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 122,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 123,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 151,
+      "defined_class": "articles",
+      "method_id": "allArticles",
+      "path": "backend/controllers/articles.js",
+      "lineno": 22,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "req",
+          "class": "IncomingMessage",
+          "object_id": 121,
+          "value": "[object Object]"
+        },
+        {
+          "name": "res",
+          "class": "ServerResponse",
+          "object_id": 122,
+          "value": "[object Object]"
+        },
+        {
+          "name": "next",
+          "class": "Function",
+          "object_id": 123,
+          "value": "function next (...) { ... }"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 152,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 127,
+          "value": "[object SequelizeInstance:Tag]",
+          "size": 1
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 128,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 153,
+      "defined_class": "appendTagList",
+      "method_id": "[anonymous]",
+      "path": "backend/helper/helpers.js",
+      "lineno": 6,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "tag",
+          "class": "Tag",
+          "object_id": 129,
+          "value": "[object SequelizeInstance:Tag]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 154,
+      "parent_id": 153,
+      "elapsed": 0.000044000000052619725,
+      "return_value": {
+        "name": "return",
+        "class": "string",
+        "value": "\"cool\""
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 155,
+      "parent_id": 152,
+      "elapsed": 0.00011400000000139699,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 156,
+      "defined_class": "helpers",
+      "method_id": "appendFollowers",
+      "path": "backend/helper/helpers.js",
+      "lineno": 20,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "toAppend",
+          "class": "Article",
+          "object_id": 128,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 157,
+      "parent_id": 156,
+      "elapsed": 0.02381400000001304,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 158,
+      "defined_class": "helpers",
+      "method_id": "appendFavorites",
+      "path": "backend/helper/helpers.js",
+      "lineno": 12,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 128,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 159,
+      "parent_id": 158,
+      "elapsed": 0.01621799999999348,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 160,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 139,
+          "value": "",
+          "size": 0
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 140,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 161,
+      "parent_id": 160,
+      "elapsed": 0.00011299999995389953,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 162,
+      "defined_class": "helpers",
+      "method_id": "appendFollowers",
+      "path": "backend/helper/helpers.js",
+      "lineno": 20,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "toAppend",
+          "class": "Article",
+          "object_id": 140,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 163,
+      "parent_id": 162,
+      "elapsed": 0.017491000000038184,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 164,
+      "defined_class": "helpers",
+      "method_id": "appendFavorites",
+      "path": "backend/helper/helpers.js",
+      "lineno": 12,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 140,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 165,
+      "parent_id": 164,
+      "elapsed": 0.011182000000029802,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 166,
+      "defined_class": "helpers",
+      "method_id": "appendTagList",
+      "path": "backend/helper/helpers.js",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "articleTags",
+          "class": "Array",
+          "object_id": 150,
+          "value": "",
+          "size": 0
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 151,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 167,
+      "parent_id": 166,
+      "elapsed": 0.00010699999995995313,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 168,
+      "defined_class": "helpers",
+      "method_id": "appendFollowers",
+      "path": "backend/helper/helpers.js",
+      "lineno": 20,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "toAppend",
+          "class": "Article",
+          "object_id": 151,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 169,
+      "parent_id": 168,
+      "elapsed": 0.014994000000006053,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 170,
+      "defined_class": "helpers",
+      "method_id": "appendFavorites",
+      "path": "backend/helper/helpers.js",
+      "lineno": 12,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "loggedUser",
+          "class": "undefined",
+          "value": "undefined"
+        },
+        {
+          "name": "article",
+          "class": "Article",
+          "object_id": 151,
+          "value": "[object SequelizeInstance:Article]"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 171,
+      "parent_id": 170,
+      "elapsed": 0.004385999999998603,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 172,
+      "defined_class": "Article",
+      "method_id": "toJSON",
+      "path": "backend/models/Article.js",
+      "lineno": 36,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "Article",
+        "object_id": 128,
+        "value": "[object SequelizeInstance:Article]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 173,
+      "parent_id": 172,
+      "elapsed": 0.0001859999999869615,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 160,
+        "value": "[object Object]",
+        "size": 10,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "slug",
+            "class": "string"
+          },
+          {
+            "name": "title",
+            "class": "string"
+          },
+          {
+            "name": "description",
+            "class": "string"
+          },
+          {
+            "name": "body",
+            "class": "string"
+          },
+          {
+            "name": "createdAt",
+            "class": "object"
+          },
+          {
+            "name": "updatedAt",
+            "class": "object"
+          },
+          {
+            "name": "userId",
+            "class": "undefined"
+          },
+          {
+            "name": "tagList",
+            "class": "object"
+          },
+          {
+            "name": "author",
+            "class": "object"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 174,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 161,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 175,
+      "parent_id": 174,
+      "elapsed": 0.00009700000000884756,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 162,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "string"
+          },
+          {
+            "name": "image",
+            "class": "string"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "following",
+            "class": "boolean"
+          },
+          {
+            "name": "followersCount",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 176,
+      "defined_class": "Article",
+      "method_id": "toJSON",
+      "path": "backend/models/Article.js",
+      "lineno": 36,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "Article",
+        "object_id": 140,
+        "value": "[object SequelizeInstance:Article]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 177,
+      "parent_id": 176,
+      "elapsed": 0.00009999999997671694,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 163,
+        "value": "[object Object]",
+        "size": 10,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "slug",
+            "class": "string"
+          },
+          {
+            "name": "title",
+            "class": "string"
+          },
+          {
+            "name": "description",
+            "class": "string"
+          },
+          {
+            "name": "body",
+            "class": "string"
+          },
+          {
+            "name": "createdAt",
+            "class": "object"
+          },
+          {
+            "name": "updatedAt",
+            "class": "object"
+          },
+          {
+            "name": "userId",
+            "class": "undefined"
+          },
+          {
+            "name": "tagList",
+            "class": "object"
+          },
+          {
+            "name": "author",
+            "class": "object"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 178,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 164,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 179,
+      "parent_id": 178,
+      "elapsed": 0.00005200000002514571,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 165,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "object"
+          },
+          {
+            "name": "image",
+            "class": "object"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "following",
+            "class": "boolean"
+          },
+          {
+            "name": "followersCount",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 180,
+      "defined_class": "Article",
+      "method_id": "toJSON",
+      "path": "backend/models/Article.js",
+      "lineno": 36,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "Article",
+        "object_id": 151,
+        "value": "[object SequelizeInstance:Article]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 181,
+      "parent_id": 180,
+      "elapsed": 0.00006399999995483086,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 166,
+        "value": "[object Object]",
+        "size": 10,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "slug",
+            "class": "string"
+          },
+          {
+            "name": "title",
+            "class": "string"
+          },
+          {
+            "name": "description",
+            "class": "string"
+          },
+          {
+            "name": "body",
+            "class": "string"
+          },
+          {
+            "name": "createdAt",
+            "class": "object"
+          },
+          {
+            "name": "updatedAt",
+            "class": "object"
+          },
+          {
+            "name": "userId",
+            "class": "undefined"
+          },
+          {
+            "name": "tagList",
+            "class": "object"
+          },
+          {
+            "name": "author",
+            "class": "object"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 182,
+      "defined_class": "User",
+      "method_id": "toJSON",
+      "path": "backend/models/User.js",
+      "lineno": 42,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "User",
+        "object_id": 167,
+        "value": "[object SequelizeInstance:User]"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 183,
+      "parent_id": 182,
+      "elapsed": 0.000059000000008381904,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 168,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "id",
+            "class": "undefined"
+          },
+          {
+            "name": "username",
+            "class": "string"
+          },
+          {
+            "name": "bio",
+            "class": "object"
+          },
+          {
+            "name": "image",
+            "class": "object"
+          },
+          {
+            "name": "password",
+            "class": "undefined"
+          },
+          {
+            "name": "createdAt",
+            "class": "undefined"
+          },
+          {
+            "name": "updatedAt",
+            "class": "undefined"
+          },
+          {
+            "name": "following",
+            "class": "boolean"
+          },
+          {
+            "name": "followersCount",
+            "class": "number"
+          }
+        ]
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 184,
+      "parent_id": 151,
+      "elapsed": 0.13578599999996369,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 185,
+      "parent_id": 150,
+      "elapsed": 0.0011660000000265427,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 186,
+      "parent_id": 149,
+      "elapsed": 0.13753099999995902,
+      "http_server_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"7b3-tE4SYrCz1HWhjs9V8qUuuJkUdyQ\""
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 187,
+      "defined_class": "index",
+      "method_id": "[anonymous]",
+      "path": "backend/index.js",
+      "lineno": 43,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 188,
+      "parent_id": 187,
+      "elapsed": 0.00025400000000036017,
+      "return_value": {
+        "name": "return",
+        "class": "undefined",
+        "value": "undefined"
+      }
+    }
+  ],
+  "version": "1.8.0",
+  "metadata": {
+    "name": "index",
+    "app": "conduit-realworld-example-app",
+    "labels": [],
+    "language": {
+      "name": "javascript",
+      "version": "ES.Next",
+      "engine": "node@18.15.0"
+    },
+    "frameworks": [],
+    "client": {
+      "name": "@appland/appmap-agent-js",
+      "version": "13.6.0",
+      "url": "https://github.com/getappmap/appmap-agent-js.git/#readme"
+    },
+    "recorder": {
+      "name": "process"
+    },
+    "git": {
+      "repository": "git@github.com:ghamelin/conduit-realworld-example-app.git",
+      "branch": "main",
+      "commit": "b6dc05b2e7239f7ee722afe18123600e0e59618d",
+      "status": [
+        "D backend/.env.example",
+        "M backend/config/config.js",
+        "M backend/helper/jwt.js",
+        "M backend/package.json",
+        "M package-lock.json",
+        "M package.json",
+        "?? \"Conduit config.session.sql\"",
+        "?? appmap.yml",
+        "?? backend/controllers/articles.test.js",
+        "?? tmp/"
+      ],
+      "tag": null,
+      "annotated_tag": null,
+      "commits_since_tag": null,
+      "commits_since_annotated_tag": null
+    },
+    "fingerprints": [
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "classDependencies",
+        "digest": "4753159dd1d943c5675da08646e5178f4b89925ffd30abda3ce6d61c6e515233",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "classes",
+        "digest": "4a46d2639f03e298b4e07da0424191e6b92fdab187fdf7e378fbb4ac560964b8",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "httpClientRequests",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "httpServerRequests",
+        "digest": "c04c71f10b3b356b55dc499bcea2fb3a8e0134aae574586a92a1674a0b5f4d11",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "info",
+        "digest": "1fdb5a9ac8805970f2969b7b6d078ae6df282d15b81f504725c10296188424f1",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "labels",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "packageDependencies",
+        "digest": "5827cda12739b8975ed11f32c134061149e6ff8de7af213c1a78faad7e5cc97b",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "packages",
+        "digest": "4ba33d98dd9b3fe9923f89cfe0276caefcb868fbbe6f061b2438a1e2ef252f8c",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "sqlNormalized",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "sqlTables",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "trace",
+        "digest": "08e095fe9ebb1a8801fdb27960a3bb6c490269e53f59b00f86df6380eab68d35",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "3d7f15040153b8c93b638cec4ac94ddf9aa4b57865226d5f3340f0f4f77978cb",
+        "canonicalization_algorithm": "update",
+        "digest": "5d4270b29a47449dc6467947086d5a17e745bbbd41d0145e513218c300d96c2f",
+        "fingerprint_algorithm": "sha256"
+      }
+    ]
+  },
+  "classMap": [
+    {
+      "type": "package",
+      "name": "backend",
+      "children": [
+        {
+          "type": "class",
+          "name": "index",
+          "children": [
+            {
+              "type": "function",
+              "name": "[anonymous]",
+              "static": false,
+              "location": "backend/index.js:19"
+            },
+            {
+              "type": "function",
+              "name": "[anonymous]",
+              "static": false,
+              "location": "backend/index.js:43"
+            }
+          ]
+        },
+        {
+          "type": "package",
+          "name": "models",
+          "children": [
+            {
+              "type": "class",
+              "name": "index",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/models/index.js:19"
+                },
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/models/index.js:24"
+                },
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/models/index.js:32"
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "name": "Article",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/models/Article.js:3"
+                },
+                {
+                  "type": "class",
+                  "name": "[anonymous]",
+                  "children": [
+                    {
+                      "type": "class",
+                      "name": "Article",
+                      "children": [
+                        {
+                          "type": "function",
+                          "name": "associate",
+                          "static": true,
+                          "location": "backend/models/Article.js:10"
+                        },
+                        {
+                          "type": "function",
+                          "name": "toJSON",
+                          "static": false,
+                          "location": "backend/models/Article.js:36"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "name": "Comment",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/models/Comment.js:3"
+                },
+                {
+                  "type": "class",
+                  "name": "[anonymous]",
+                  "children": [
+                    {
+                      "type": "class",
+                      "name": "Comment",
+                      "children": [
+                        {
+                          "type": "function",
+                          "name": "associate",
+                          "static": true,
+                          "location": "backend/models/Comment.js:10"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "name": "Tag",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/models/Tag.js:3"
+                },
+                {
+                  "type": "class",
+                  "name": "[anonymous]",
+                  "children": [
+                    {
+                      "type": "class",
+                      "name": "Tag",
+                      "children": [
+                        {
+                          "type": "function",
+                          "name": "associate",
+                          "static": true,
+                          "location": "backend/models/Tag.js:10"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "name": "User",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/models/User.js:3"
+                },
+                {
+                  "type": "class",
+                  "name": "[anonymous]",
+                  "children": [
+                    {
+                      "type": "class",
+                      "name": "User",
+                      "children": [
+                        {
+                          "type": "function",
+                          "name": "associate",
+                          "static": true,
+                          "location": "backend/models/User.js:10"
+                        },
+                        {
+                          "type": "function",
+                          "name": "toJSON",
+                          "static": false,
+                          "location": "backend/models/User.js:42"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "package",
+          "name": "helper",
+          "children": [
+            {
+              "type": "class",
+              "name": "jwt",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/helper/jwt.js:11"
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "name": "helpers",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "appendTagList",
+                  "static": false,
+                  "location": "backend/helper/helpers.js:5"
+                },
+                {
+                  "type": "class",
+                  "name": "appendTagList",
+                  "children": [
+                    {
+                      "type": "function",
+                      "name": "[anonymous]",
+                      "static": false,
+                      "location": "backend/helper/helpers.js:6"
+                    }
+                  ]
+                },
+                {
+                  "type": "function",
+                  "name": "appendFavorites",
+                  "static": false,
+                  "location": "backend/helper/helpers.js:12"
+                },
+                {
+                  "type": "function",
+                  "name": "appendFollowers",
+                  "static": false,
+                  "location": "backend/helper/helpers.js:20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "package",
+          "name": "middleware",
+          "children": [
+            {
+              "type": "class",
+              "name": "authentication",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "verifyToken",
+                  "static": false,
+                  "location": "backend/middleware/authentication.js:5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "package",
+          "name": "controllers",
+          "children": [
+            {
+              "type": "class",
+              "name": "user",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "currentUser",
+                  "static": false,
+                  "location": "backend/controllers/user.js:5"
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "name": "articles",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "allArticles",
+                  "static": false,
+                  "location": "backend/controllers/articles.js:22"
+                },
+                {
+                  "type": "function",
+                  "name": "singleArticle",
+                  "static": false,
+                  "location": "backend/controllers/articles.js:153"
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "name": "comments",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "allComments",
+                  "static": false,
+                  "location": "backend/controllers/comments.js:11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "package",
+          "name": "routes",
+          "children": [
+            {
+              "type": "class",
+              "name": "tags",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "[anonymous]",
+                  "static": false,
+                  "location": "backend/routes/tags.js:7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /api/articles/:slug/comments"
+        },
+        {
+          "type": "route",
+          "name": "GET /api/user/"
+        },
+        {
+          "type": "route",
+          "name": "GET /api/articles/:slug"
+        },
+        {
+          "type": "route",
+          "name": "GET /api/articles/"
+        },
+        {
+          "type": "route",
+          "name": "GET /api/tags/"
+        }
+      ]
+    }
+  ]
+}

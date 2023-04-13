@@ -1,0 +1,7 @@
+[
+  "backend/controllers",
+  "backend/helper",
+  "backend/middleware",
+  "backend/models",
+  "backend/routes"
+]

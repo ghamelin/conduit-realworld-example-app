@@ -1,0 +1,12 @@
+[
+  "backend/controllers/articles",
+  "backend/controllers/comments",
+  "backend/controllers/user",
+  "backend/helper/helpers",
+  "backend/helper/helpers::appendTagList",
+  "backend/helper/jwt",
+  "backend/middleware/authentication",
+  "backend/models/Article::[anonymous]::Article",
+  "backend/models/User::[anonymous]::User",
+  "backend/routes/tags"
+]

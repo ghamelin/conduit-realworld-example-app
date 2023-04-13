@@ -1,0 +1,47 @@
+[
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/:slug/comments",
+    "status_code": 304
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/user/",
+    "status_code": 304
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/:slug/comments",
+    "status_code": 304
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/user/",
+    "status_code": 304
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/:slug",
+    "status_code": 200
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/",
+    "status_code": 200
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/tags/",
+    "status_code": 304
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/tags/",
+    "status_code": 304
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/",
+    "status_code": 304
+  }
+]

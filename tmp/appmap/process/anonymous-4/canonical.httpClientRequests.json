@@ -1,0 +1,32 @@
+[
+  {
+    "route": "GET http://localhost:3000/api/articles",
+    "parameters": "(limit,offset)",
+    "status": 200
+  },
+  {
+    "route": "GET http://localhost:3000/api/articles",
+    "parameters": "(limit,offset)",
+    "status": 304
+  },
+  {
+    "route": "GET http://localhost:3000/api/articles/my-dope-article1",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET http://localhost:3000/api/articles/my-dope-article1/comments",
+    "parameters": "()",
+    "status": 304
+  },
+  {
+    "route": "GET http://localhost:3000/api/tags",
+    "parameters": "()",
+    "status": 304
+  },
+  {
+    "route": "GET http://localhost:3000/api/user",
+    "parameters": "()",
+    "status": 304
+  }
+]

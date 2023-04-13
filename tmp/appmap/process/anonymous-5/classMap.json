@@ -1,0 +1,352 @@
+[
+  {
+    "type": "package",
+    "name": "backend",
+    "children": [
+      {
+        "type": "class",
+        "name": "index",
+        "children": [
+          {
+            "type": "function",
+            "name": "[anonymous]",
+            "static": false,
+            "location": "backend/index.js:19"
+          },
+          {
+            "type": "function",
+            "name": "[anonymous]",
+            "static": false,
+            "location": "backend/index.js:43"
+          }
+        ]
+      },
+      {
+        "type": "package",
+        "name": "models",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/models/index.js:19"
+              },
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/models/index.js:24"
+              },
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/models/index.js:32"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "Article",
+            "children": [
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/models/Article.js:3"
+              },
+              {
+                "type": "class",
+                "name": "[anonymous]",
+                "children": [
+                  {
+                    "type": "class",
+                    "name": "Article",
+                    "children": [
+                      {
+                        "type": "function",
+                        "name": "associate",
+                        "static": true,
+                        "location": "backend/models/Article.js:10"
+                      },
+                      {
+                        "type": "function",
+                        "name": "toJSON",
+                        "static": false,
+                        "location": "backend/models/Article.js:36"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "Comment",
+            "children": [
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/models/Comment.js:3"
+              },
+              {
+                "type": "class",
+                "name": "[anonymous]",
+                "children": [
+                  {
+                    "type": "class",
+                    "name": "Comment",
+                    "children": [
+                      {
+                        "type": "function",
+                        "name": "associate",
+                        "static": true,
+                        "location": "backend/models/Comment.js:10"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "Tag",
+            "children": [
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/models/Tag.js:3"
+              },
+              {
+                "type": "class",
+                "name": "[anonymous]",
+                "children": [
+                  {
+                    "type": "class",
+                    "name": "Tag",
+                    "children": [
+                      {
+                        "type": "function",
+                        "name": "associate",
+                        "static": true,
+                        "location": "backend/models/Tag.js:10"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "User",
+            "children": [
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/models/User.js:3"
+              },
+              {
+                "type": "class",
+                "name": "[anonymous]",
+                "children": [
+                  {
+                    "type": "class",
+                    "name": "User",
+                    "children": [
+                      {
+                        "type": "function",
+                        "name": "associate",
+                        "static": true,
+                        "location": "backend/models/User.js:10"
+                      },
+                      {
+                        "type": "function",
+                        "name": "toJSON",
+                        "static": false,
+                        "location": "backend/models/User.js:42"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "package",
+        "name": "helper",
+        "children": [
+          {
+            "type": "class",
+            "name": "jwt",
+            "children": [
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/helper/jwt.js:11"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "helpers",
+            "children": [
+              {
+                "type": "function",
+                "name": "appendTagList",
+                "static": false,
+                "location": "backend/helper/helpers.js:5"
+              },
+              {
+                "type": "class",
+                "name": "appendTagList",
+                "children": [
+                  {
+                    "type": "function",
+                    "name": "[anonymous]",
+                    "static": false,
+                    "location": "backend/helper/helpers.js:6"
+                  }
+                ]
+              },
+              {
+                "type": "function",
+                "name": "appendFavorites",
+                "static": false,
+                "location": "backend/helper/helpers.js:12"
+              },
+              {
+                "type": "function",
+                "name": "appendFollowers",
+                "static": false,
+                "location": "backend/helper/helpers.js:20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "package",
+        "name": "middleware",
+        "children": [
+          {
+            "type": "class",
+            "name": "authentication",
+            "children": [
+              {
+                "type": "function",
+                "name": "verifyToken",
+                "static": false,
+                "location": "backend/middleware/authentication.js:5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "package",
+        "name": "controllers",
+        "children": [
+          {
+            "type": "class",
+            "name": "user",
+            "children": [
+              {
+                "type": "function",
+                "name": "currentUser",
+                "static": false,
+                "location": "backend/controllers/user.js:5"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "articles",
+            "children": [
+              {
+                "type": "function",
+                "name": "allArticles",
+                "static": false,
+                "location": "backend/controllers/articles.js:22"
+              },
+              {
+                "type": "function",
+                "name": "singleArticle",
+                "static": false,
+                "location": "backend/controllers/articles.js:153"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "comments",
+            "children": [
+              {
+                "type": "function",
+                "name": "allComments",
+                "static": false,
+                "location": "backend/controllers/comments.js:11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "package",
+        "name": "routes",
+        "children": [
+          {
+            "type": "class",
+            "name": "tags",
+            "children": [
+              {
+                "type": "function",
+                "name": "[anonymous]",
+                "static": false,
+                "location": "backend/routes/tags.js:7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /api/articles/:slug/comments"
+      },
+      {
+        "type": "route",
+        "name": "GET /api/user/"
+      },
+      {
+        "type": "route",
+        "name": "GET /api/articles/:slug"
+      },
+      {
+        "type": "route",
+        "name": "GET /api/articles/"
+      },
+      {
+        "type": "route",
+        "name": "GET /api/tags/"
+      }
+    ]
+  }
+]

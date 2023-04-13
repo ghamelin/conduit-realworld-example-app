@@ -1,0 +1,62 @@
+[
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/user",
+    "parameter_names": [],
+    "status_code": 304
+  },
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/user",
+    "parameter_names": [],
+    "status_code": 304
+  },
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/articles/my-dope-article1/comments",
+    "parameter_names": [],
+    "status_code": 304
+  },
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/articles/my-dope-article1/comments",
+    "parameter_names": [],
+    "status_code": 304
+  },
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/articles/my-dope-article1",
+    "parameter_names": [],
+    "status_code": 200
+  },
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/articles",
+    "parameter_names": [
+      "limit",
+      "offset"
+    ],
+    "status_code": 200
+  },
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/tags",
+    "parameter_names": [],
+    "status_code": 304
+  },
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/tags",
+    "parameter_names": [],
+    "status_code": 304
+  },
+  {
+    "kind": "http_client_request",
+    "route": "GET http://localhost:3000/api/articles",
+    "parameter_names": [
+      "limit",
+      "offset"
+    ],
+    "status_code": 304
+  }
+]

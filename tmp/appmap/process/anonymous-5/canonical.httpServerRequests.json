@@ -1,0 +1,32 @@
+[
+  {
+    "route": "GET /api/articles/",
+    "parameters": "(limit,offset)",
+    "status": 200
+  },
+  {
+    "route": "GET /api/articles/",
+    "parameters": "(limit,offset)",
+    "status": 304
+  },
+  {
+    "route": "GET /api/articles/:slug",
+    "parameters": "(:slug)",
+    "status": 200
+  },
+  {
+    "route": "GET /api/articles/:slug/comments",
+    "parameters": "(:slug)",
+    "status": 304
+  },
+  {
+    "route": "GET /api/tags/",
+    "parameters": "()",
+    "status": 304
+  },
+  {
+    "route": "GET /api/user/",
+    "parameters": "()",
+    "status": 304
+  }
+]

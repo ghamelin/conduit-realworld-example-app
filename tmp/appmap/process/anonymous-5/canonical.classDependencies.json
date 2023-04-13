@@ -1,0 +1,42 @@
+[
+  {
+    "caller": "HTTP server requests->GET /api/articles/",
+    "callee": "backend/middleware"
+  },
+  {
+    "caller": "HTTP server requests->GET /api/articles/:slug",
+    "callee": "backend/middleware"
+  },
+  {
+    "caller": "HTTP server requests->GET /api/articles/:slug/comments",
+    "callee": "backend/middleware"
+  },
+  {
+    "caller": "HTTP server requests->GET /api/tags/",
+    "callee": "backend/routes"
+  },
+  {
+    "caller": "HTTP server requests->GET /api/user/",
+    "callee": "backend/middleware"
+  },
+  {
+    "caller": "backend/controllers",
+    "callee": "backend/helper"
+  },
+  {
+    "caller": "backend/controllers",
+    "callee": "backend/models"
+  },
+  {
+    "caller": "backend/middleware",
+    "callee": "backend/controllers"
+  },
+  {
+    "caller": "backend/middleware",
+    "callee": "backend/helper"
+  },
+  {
+    "caller": "backend/routes",
+    "callee": "backend/helper"
+  }
+]

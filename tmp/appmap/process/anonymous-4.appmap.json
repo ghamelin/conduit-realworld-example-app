@@ -1,0 +1,592 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 1,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/user",
+        "headers": {
+          "if-none-match": "W/\"e8-GisxNsQ//jW+wST8CyhfALNldTs\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "authorization": "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQG1haWwuY29tIiwiaWF0IjoxNjgxMzk0NTcyfQ.N8fMVTTyYvDXZx1Js8BU5veMzhxhh9_GRglkVQv5HQI",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 2,
+      "parent_id": 1,
+      "elapsed": 0.09485699999999997,
+      "http_client_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"e8-GisxNsQ//jW+wST8CyhfALNldTs\"",
+          "date": "Thu, 13 Apr 2023 14:06:30 GMT",
+          "connection": "close"
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 3,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/user",
+        "headers": {
+          "if-none-match": "W/\"e8-GisxNsQ//jW+wST8CyhfALNldTs\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "authorization": "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQG1haWwuY29tIiwiaWF0IjoxNjgxMzk0NTcyfQ.N8fMVTTyYvDXZx1Js8BU5veMzhxhh9_GRglkVQv5HQI",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 4,
+      "parent_id": 3,
+      "elapsed": 0.024242999999999938,
+      "http_client_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"e8-GisxNsQ//jW+wST8CyhfALNldTs\"",
+          "date": "Thu, 13 Apr 2023 14:06:30 GMT",
+          "connection": "close"
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 5,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/articles/my-dope-article1/comments",
+        "headers": {
+          "if-none-match": "W/\"f-DSK3s7cPAqrq+537gdA1gy8XGx8\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 6,
+      "parent_id": 5,
+      "elapsed": 0.03314000000000033,
+      "http_client_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"f-DSK3s7cPAqrq+537gdA1gy8XGx8\"",
+          "date": "Thu, 13 Apr 2023 14:06:30 GMT",
+          "connection": "close"
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 7,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/articles/my-dope-article1/comments",
+        "headers": {
+          "if-none-match": "W/\"f-DSK3s7cPAqrq+537gdA1gy8XGx8\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 8,
+      "parent_id": 7,
+      "elapsed": 0.09459800000000042,
+      "http_client_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"f-DSK3s7cPAqrq+537gdA1gy8XGx8\"",
+          "date": "Thu, 13 Apr 2023 14:06:30 GMT",
+          "connection": "close"
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 9,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/articles/my-dope-article1",
+        "headers": {
+          "if-none-match": "W/\"171-lHmSq5YpgByD4UzgSSCZqc2FY5g\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "accept": "*/*",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 10,
+      "parent_id": 9,
+      "elapsed": 0.07593900000001304,
+      "http_client_response": {
+        "status_code": 200,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "369",
+          "etag": "W/\"171-GncbYrpmQxDDzmYjQMbENGcN8dc\"",
+          "date": "Thu, 13 Apr 2023 14:14:07 GMT",
+          "connection": "close"
+        },
+        "return_value": {
+          "name": "return",
+          "class": "Object",
+          "object_id": 1,
+          "value": "[object Object]",
+          "size": 1,
+          "properties": [
+            {
+              "name": "article",
+              "class": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 11,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/articles",
+        "headers": {
+          "if-none-match": "W/\"7af-oeHNGCw9mxAiQwdcUt+YQjPFV84\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "accept": "*/*",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      },
+      "message": [
+        {
+          "name": "limit",
+          "class": "string",
+          "value": "3"
+        },
+        {
+          "name": "offset",
+          "class": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 12,
+      "parent_id": 11,
+      "elapsed": 0.266820000000007,
+      "http_client_response": {
+        "status_code": 200,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "1971",
+          "etag": "W/\"7b3-tE4SYrCz1HWhjs9V8qUuuJkUdyQ\"",
+          "date": "Thu, 13 Apr 2023 14:14:10 GMT",
+          "connection": "close"
+        },
+        "return_value": {
+          "name": "return",
+          "class": "Object",
+          "object_id": 2,
+          "value": "[object Object]",
+          "size": 2,
+          "properties": [
+            {
+              "name": "articles",
+              "class": "object"
+            },
+            {
+              "name": "articlesCount",
+              "class": "number"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 13,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/tags",
+        "headers": {
+          "if-none-match": "W/\"11-/KnYZG9E7DWdeqaDW+xskaO/nmw\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 14,
+      "parent_id": 13,
+      "elapsed": 0.09658399999997345,
+      "http_client_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"11-/KnYZG9E7DWdeqaDW+xskaO/nmw\"",
+          "date": "Thu, 13 Apr 2023 14:14:09 GMT",
+          "connection": "close"
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 15,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/tags",
+        "headers": {
+          "if-none-match": "W/\"11-/KnYZG9E7DWdeqaDW+xskaO/nmw\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "accept": "application/json, text/plain, */*",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 16,
+      "parent_id": 15,
+      "elapsed": 0.06624299999995856,
+      "http_client_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"11-/KnYZG9E7DWdeqaDW+xskaO/nmw\"",
+          "date": "Thu, 13 Apr 2023 14:14:09 GMT",
+          "connection": "close"
+        },
+        "return_value": null
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 17,
+      "http_client_request": {
+        "request_method": "GET",
+        "url": "http://localhost:3000/api/articles",
+        "headers": {
+          "if-none-match": "W/\"7b3-tE4SYrCz1HWhjs9V8qUuuJkUdyQ\"",
+          "accept-language": "en-US,en;q=0.9",
+          "accept-encoding": "gzip, deflate, br",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "accept": "*/*",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+          "connection": "close",
+          "host": "localhost:3000"
+        }
+      },
+      "message": [
+        {
+          "name": "limit",
+          "class": "string",
+          "value": "3"
+        },
+        {
+          "name": "offset",
+          "class": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 18,
+      "parent_id": 17,
+      "elapsed": 0.1426020000000135,
+      "http_client_response": {
+        "status_code": 304,
+        "headers": {
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "etag": "W/\"7b3-tE4SYrCz1HWhjs9V8qUuuJkUdyQ\"",
+          "date": "Thu, 13 Apr 2023 14:14:10 GMT",
+          "connection": "close"
+        },
+        "return_value": null
+      }
+    }
+  ],
+  "version": "1.8.0",
+  "metadata": {
+    "name": "vite",
+    "app": "conduit-realworld-example-app",
+    "labels": [],
+    "language": {
+      "name": "javascript",
+      "version": "ES.Next",
+      "engine": "node@18.15.0"
+    },
+    "frameworks": [],
+    "client": {
+      "name": "@appland/appmap-agent-js",
+      "version": "13.6.0",
+      "url": "https://github.com/getappmap/appmap-agent-js.git/#readme"
+    },
+    "recorder": {
+      "name": "process"
+    },
+    "git": {
+      "repository": "git@github.com:ghamelin/conduit-realworld-example-app.git",
+      "branch": "main",
+      "commit": "b6dc05b2e7239f7ee722afe18123600e0e59618d",
+      "status": [
+        "D backend/.env.example",
+        "M backend/config/config.js",
+        "M backend/helper/jwt.js",
+        "M backend/package.json",
+        "M package-lock.json",
+        "M package.json",
+        "?? \"Conduit config.session.sql\"",
+        "?? appmap.yml",
+        "?? backend/controllers/articles.test.js",
+        "?? tmp/"
+      ],
+      "tag": null,
+      "annotated_tag": null,
+      "commits_since_tag": null,
+      "commits_since_annotated_tag": null
+    },
+    "fingerprints": [
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "classDependencies",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "classes",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "httpClientRequests",
+        "digest": "8a708ce162497d9ef22adaa73aae1bee7c8d65f21441436b74741451baca79ca",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "httpServerRequests",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "info",
+        "digest": "7ec739276426297ff1e17bf68b31c36046b0a9d3304c97f8a338098339ed5508",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "labels",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "packageDependencies",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "packages",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "sqlNormalized",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "sqlTables",
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "trace",
+        "digest": "7ec739276426297ff1e17bf68b31c36046b0a9d3304c97f8a338098339ed5508",
+        "fingerprint_algorithm": "sha256"
+      },
+      {
+        "appmap_digest": "c161fe60ce5fd390479f5cbf2dbcc4600eb5bea053d062063702769122e98544",
+        "canonicalization_algorithm": "update",
+        "digest": "ca90d439cff667eabc53af1e8351638a90397f05b1af54e397a406bbe81a1dbb",
+        "fingerprint_algorithm": "sha256"
+      }
+    ]
+  },
+  "classMap": [
+    {
+      "type": "external-service",
+      "name": "localhost:3000",
+      "children": [
+        {
+          "type": "external-route",
+          "name": "GET http://localhost:3000/api/user"
+        },
+        {
+          "type": "external-route",
+          "name": "GET http://localhost:3000/api/articles/my-dope-article1/comments"
+        },
+        {
+          "type": "external-route",
+          "name": "GET http://localhost:3000/api/articles/my-dope-article1"
+        },
+        {
+          "type": "external-route",
+          "name": "GET http://localhost:3000/api/articles"
+        },
+        {
+          "type": "external-route",
+          "name": "GET http://localhost:3000/api/tags"
+        }
+      ]
+    }
+  ]
+}

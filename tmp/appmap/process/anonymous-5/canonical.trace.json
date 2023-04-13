@@ -1,0 +1,434 @@
+[
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/:slug/comments",
+    "parameter_names": [
+      ":slug"
+    ],
+    "status_code": 304,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/middleware/authentication#verifyToken",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/controllers/comments#allComments",
+            "labels": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/user/",
+    "parameter_names": [],
+    "status_code": 304,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/middleware/authentication#verifyToken",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/helper/jwt#[anonymous]",
+            "labels": []
+          },
+          {
+            "kind": "function",
+            "function": "backend/controllers/user#currentUser",
+            "labels": [],
+            "children": [
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/:slug/comments",
+    "parameter_names": [
+      ":slug"
+    ],
+    "status_code": 304,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/middleware/authentication#verifyToken",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/controllers/comments#allComments",
+            "labels": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/user/",
+    "parameter_names": [],
+    "status_code": 304,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/middleware/authentication#verifyToken",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/helper/jwt#[anonymous]",
+            "labels": []
+          },
+          {
+            "kind": "function",
+            "function": "backend/controllers/user#currentUser",
+            "labels": [],
+            "children": [
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/:slug",
+    "parameter_names": [
+      ":slug"
+    ],
+    "status_code": 200,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/middleware/authentication#verifyToken",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/controllers/articles#singleArticle",
+            "labels": [],
+            "children": [
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendTagList",
+                "labels": [],
+                "children": [
+                  {
+                    "kind": "function",
+                    "function": "backend/helper/helpers::appendTagList#[anonymous]",
+                    "labels": []
+                  }
+                ]
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFollowers",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFavorites",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/Article::[anonymous]::Article#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/",
+    "parameter_names": [
+      "limit",
+      "offset"
+    ],
+    "status_code": 200,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/middleware/authentication#verifyToken",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/controllers/articles#allArticles",
+            "labels": [],
+            "children": [
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendTagList",
+                "labels": [],
+                "children": [
+                  {
+                    "kind": "function",
+                    "function": "backend/helper/helpers::appendTagList#[anonymous]",
+                    "labels": []
+                  }
+                ]
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFollowers",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFavorites",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendTagList",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFollowers",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFavorites",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendTagList",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFollowers",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFavorites",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/Article::[anonymous]::Article#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/Article::[anonymous]::Article#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/Article::[anonymous]::Article#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/tags/",
+    "parameter_names": [],
+    "status_code": 304,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/routes/tags#[anonymous]",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/helper/helpers#appendTagList",
+            "labels": [],
+            "children": [
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers::appendTagList#[anonymous]",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/tags/",
+    "parameter_names": [],
+    "status_code": 304,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/routes/tags#[anonymous]",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/helper/helpers#appendTagList",
+            "labels": [],
+            "children": [
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers::appendTagList#[anonymous]",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "http_server_request",
+    "route": "GET /api/articles/",
+    "parameter_names": [
+      "limit",
+      "offset"
+    ],
+    "status_code": 304,
+    "children": [
+      {
+        "kind": "function",
+        "function": "backend/middleware/authentication#verifyToken",
+        "labels": [],
+        "children": [
+          {
+            "kind": "function",
+            "function": "backend/controllers/articles#allArticles",
+            "labels": [],
+            "children": [
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendTagList",
+                "labels": [],
+                "children": [
+                  {
+                    "kind": "function",
+                    "function": "backend/helper/helpers::appendTagList#[anonymous]",
+                    "labels": []
+                  }
+                ]
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFollowers",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFavorites",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendTagList",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFollowers",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFavorites",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendTagList",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFollowers",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/helper/helpers#appendFavorites",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/Article::[anonymous]::Article#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/Article::[anonymous]::Article#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/Article::[anonymous]::Article#toJSON",
+                "labels": []
+              },
+              {
+                "kind": "function",
+                "function": "backend/models/User::[anonymous]::User#toJSON",
+                "labels": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

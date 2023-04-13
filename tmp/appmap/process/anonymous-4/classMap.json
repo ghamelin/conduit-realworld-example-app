@@ -1,0 +1,28 @@
+[
+  {
+    "type": "external-service",
+    "name": "localhost:3000",
+    "children": [
+      {
+        "type": "external-route",
+        "name": "GET http://localhost:3000/api/user"
+      },
+      {
+        "type": "external-route",
+        "name": "GET http://localhost:3000/api/articles/my-dope-article1/comments"
+      },
+      {
+        "type": "external-route",
+        "name": "GET http://localhost:3000/api/articles/my-dope-article1"
+      },
+      {
+        "type": "external-route",
+        "name": "GET http://localhost:3000/api/articles"
+      },
+      {
+        "type": "external-route",
+        "name": "GET http://localhost:3000/api/tags"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+name: conduit-realworld-example-app
+packages:
+  - path: backend
+language: javascript
+appmap_dir: tmp/appmap

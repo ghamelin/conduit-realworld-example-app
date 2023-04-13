@@ -1,4 +1,5 @@
 const jwt = require("jsonwebtoken");
+require("dotenv").config();
 const privateKey = process.env.JWT_KEY;
 
 module.exports.jwtSign = async (payload) => {
